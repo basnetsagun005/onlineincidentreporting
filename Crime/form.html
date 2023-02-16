@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="center">
+        <h1> Incident Report Submission Form</h1>
+        <form method="post">
+        <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Enter your full name</label>
+        </div>
+        <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Enter the nature of crime</label>
+        </div>
+        <div class = "box">
+            <span class = "details"> Are you the victim? </span>
+            <label><input type ="radio" name="victim" value="Yes" required> Yes </label><label><input type ="radio" name="victim" value="No" required> No </label>
+        </div>
+        <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label >Enter the detailed description of the incident / crime</label>
+            
+        </div>      
+        <input type="Submit" value="Submit Report">
+        <br>
+        <br>
+        <br>
+</body>
+</html>
